@@ -32,6 +32,7 @@
           ...
         }:
         {
+          packages.default = pkgs.callPackage ./package.nix { };
           devShells.default =
             with pkgs;
             mkShell rec {
