@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/board.png",
+            "ascent": 0,
+            "height": 180,
+            "chars": ["\uE000"]
+        }
+    ]
+}
