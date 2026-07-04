@@ -13,6 +13,7 @@ rustPlatform.buildRustPackage {
       ./Cargo.toml
       ./Cargo.lock
       ./base_pack
+      ./background.png
       ./src
     ];
   };
